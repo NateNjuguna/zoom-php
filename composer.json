@@ -19,7 +19,7 @@
         "php": ">=5.5",
         "ext-mbstring": "*",
         "vlucas/phpdotenv": "^2.5",
-        "phpmailer/phpmailer": "^6.0",
+        "phpmailer/phpmailer": "^6.1.6",
         "php-di/php-di": "^5.4",
         "pecee/simple-router": "3.7.0.0",
         "twilio/sdk": "^5.34",

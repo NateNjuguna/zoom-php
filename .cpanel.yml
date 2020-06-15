@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html
+    - export PATH=$HOME/bin:$PATH
+    - cd $DEPLOYPATH
+    - composer update >> $DEPLOYPATH/storage/logs/deploy.log 2>&1
